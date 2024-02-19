@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .wrap {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+  }
+  
+  .phone {
+    font-size: 1.2rem;
+  }
+  
+  .mailus {
+    margin-right: 0.5rem;
+  }
+  
+  .social-media {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .social-media li {
+    padding: 0;
+    margin: 0 5px;
+  }
+  
+  .social-media li a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-media li a:hover {
+    background-color: #cdd2d5;
+    color: #212529;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0.75rem 0;
+  }
+  
+  .navbar-toggler {
+    color: #343a40;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.2rem;
+  }
+  
+  .navbar-collapse {
+    justify-content: center;
+  }
+  
+  .nav-link {
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+  }
+  
+  .cta {
+    border-left: 1px solid #e9ecef;
+  }
+  
+  .hero-wrap {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+  }
+  
+  .hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .hero-wrap .slider-text {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-wrap h1 {
+    font-size: 4rem;
+    color: #fff;
+    line-height: 1.2;
+  }
+  
+  .hero-wrap p {
+    font-size: 1.5rem;
+    color: #fff;
+    max-width: 500px;
+    margin-bottom: 3rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0062cc;
+    border-color: #0062cc;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+  }
